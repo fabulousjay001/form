@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ColorBox from "./ColorBox";
+import Counter from "./Counter";
+import BetterSignUp from "./Form/BetterSignupForm";
+import SignUp from "./Form/SignUp";
+import TogglerCounter from "./ToggleCounter";
+// import Toggler from "./Toggler";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			{/* <Counter /> */}
+			{/* <Toggler /> */}
+      {/* <TogglerCounter/>
+	  <ColorBox/> */}
+	  {/* <SignUp/> */}
+	  <BetterSignUp/>
+		</div>
+	);
 }
 
 export default App;
